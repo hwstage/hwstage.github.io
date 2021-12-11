@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Git & Github"
+date:   2021-12-11
+comments: true
+---
+
+# Git & Github
+## Git 이란?
+Git은 컴퓨터 파일의 **변경사항**을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. 소프트웨어 개발에서 소스 코드 관리에 주로 사용되지만 어떠한 집합의 파일의 변경사항을 지속적으로 추적하기 위해 사용될 수 있다.
+## Github란?
+Github는 Git을 기반으로 소스 코드를 호스팅하고, 협업 지원 기능들을 지원하는 웹서비스다.
+
+# Github 사용하기
+- Git  계정 & Repository 생성하기  
+https://github.com/  
+위 페이지에서 계정을 만들고, 메인 홈페지이에서 초록색 New 버튼을 클릭한다.  
+Public과 Private은 누구나 볼 수 있거나, 특정 사람만 볼 수 있도록 하는 접근자를 지정할 수 있다. 
+Initialize this repository with a README는 `README.md `를 만드는지 여부를 설정할 수 있다.
+그 다음 원격저장소의 주소 `https://github.com/<username>/<Repository Name>`를 복사한 후, cmd를 이용해 로컬저장소에서 'git clone 원격저장소 주소를 입력하면 Git을 이용할 수 있다.
