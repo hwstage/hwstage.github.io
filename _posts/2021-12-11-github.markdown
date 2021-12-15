@@ -2,6 +2,7 @@
 layout: post
 title:  "Git & Github"
 date:   2021-12-11
+description : About Git & Github
 comments: true
 ---
 
@@ -18,3 +19,8 @@ https://github.com/
 Public과 Private은 누구나 볼 수 있거나, 특정 사람만 볼 수 있도록 하는 접근자를 지정할 수 있다. 
 Initialize this repository with a README는 `README.md `를 만드는지 여부를 설정할 수 있다.
 그 다음 원격저장소의 주소 `https://github.com/<username>/<Repository Name>`를 복사한 후, cmd를 이용해 로컬저장소에서 'git clone 원격저장소 주소를 입력하면 Git을 이용할 수 있다.
+### 주요 명령어
+- git init : git 저장소를 생성한다.
+- git add : working directory 상의 변경 내용을 staging are)에 추가한다.
+- git commit : 파일 및 폴더의 추가/변경 사항을 저장소에 기록한다.
+- git status : 현재 Git의 상태를 보여준다.
